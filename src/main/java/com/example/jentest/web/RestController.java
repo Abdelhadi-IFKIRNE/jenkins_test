@@ -10,4 +10,10 @@ public class RestController {
    public String getMessage(){
        return "jenkins start .....";
    }
+
+
+   @GetMapping("/changes")
+   public String getMessageTow(){
+        return "changes .....";
+   }
 }
